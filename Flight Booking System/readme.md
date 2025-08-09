@@ -79,16 +79,20 @@ Booking successful! Booking ID: B001
 
 ---
 
-## 🧠 Key Learning Points
-- Efficient **search & filter** with loops and conditions.
-- **Avoiding return type mismatches** (Flight vs ArrayList<Flight>).
-- **Method modularity** for maintainable code.
-- Real-world **object relationships** (Flight ↔ Booking ↔ Passenger).
+---
+
+✈️ *Thank you for checking out my Flight Booking System project!*  
+If you have any feedback, suggestions, or just want to connect, I’d love to hear from you.  
+
+## 📬 Contact
+
+💁‍♀️ **Name:** Fizzah Muhammed Ajaz  
+
+✉️ **Email:** [fizzahmajaz@gmail.com](mailto:fizzahmajaz@gmail.com)  
+
+💼 **LinkedIn:** [linkedin.com/in/fizzahmajaz](https://linkedin.com/in/fizzahmajaz)  
+
+🐙 **GitHub:** [github.com/fizzahmajaz](https://github.com/fizzahmajaz)  
 
 ---
 
-## 📜 License
-Licensed under the MIT License — you are free to use, modify, and distribute.
-
----
-💡 *This project is great for learning Java basics, applying OOP, and building a functional console application.*
