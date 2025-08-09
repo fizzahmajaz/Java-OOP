@@ -23,4 +23,59 @@ A simple **Java-based Flight Booking System** that allows users to search for fl
 ---
 
 ## 📂 Project Structure
+FlightBookingSystem/
+│
+├── Flight.java # Flight details (number, date, seats, destination)
+├── Passenger.java # Passenger information (name, contact)
+├── Booking.java # Booking details (links Passenger and Flight)
+├── FlightManager.java # Manages flight search, addition, and booking
+├── Main.java # Entry point - menu-driven interface
 
+yaml
+Copy code
+
+---
+
+## 🚀 How to Run
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/your-username/flight-booking-system.git
+   cd flight-booking-system
+Compile the Java files
+
+bash
+Copy code
+javac *.java
+Run the program
+
+bash
+Copy code
+java Main
+📋 Example Usage
+Add Flights
+
+Search Flight by Number
+
+Search Flight by Date
+
+Book a Flight
+
+View Bookings
+
+Sample run:
+
+Enter flight number: PK101
+Flight found!
+Available seats: 5
+Booking successful! Your booking ID: B001
+🧠 Key Learning Points
+Handling ArrayLists and iterating with for-each loops.
+
+Avoiding type mismatches between ArrayList<Flight> and Flight objects.
+
+Using methods for modularity (e.g., getFlightByNumber, reduceSeats).
+
+Implementing object relationships (Flight ↔ Booking ↔ Passenger).
+
+📜 License
+This project is open-source under the MIT License — feel free to use, modify, and share.
