@@ -78,24 +78,20 @@ Enter passenger name: Ali
 Booking successful! Booking ID: B001
 ```
 
----
-
-✈️ *Thank you for checking out my Flight Booking System project!*   
+--- 
 
 ## 📬 Let's Connect
 
 💁‍♀️ **Name:** Fizzah M Ajaz  
 
 ✉️ **Email:** [fizzahmajaz@gmail.com](mailto:fizzahmajaz@gmail.com)  
-
 💼 **LinkedIn:** [linkedin.com/in/fizzahmajaz](https://linkedin.com/in/fizzahmajaz)  
-
 🐙 **GitHub:** [github.com/fizzahmajaz](https://github.com/fizzahmajaz)  
 
 ---
 
 <p align="center">
-   ✈️ <i>*Thank you for checking out my Flight Booking System project!*</i>
+   ✈️ <i>*Thank you for checking out my Flight Booking System project!*</i> <br>
   💬 <i>Always open to feedback, collaboration, and new opportunities.</i>
 </p>
 
