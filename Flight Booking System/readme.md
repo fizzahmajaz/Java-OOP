@@ -18,29 +18,6 @@ A **Java-based console application** for booking flights, searching available op
 
 ---
 
-## 📜 Mini UML Diagram
-+-------------------+       +-------------------+
-|     Flight        |       |    Passenger      |
-+-------------------+       +-------------------+
-| - flightNumber    |       | - name            |
-| - origin          |       | - passportNumber  |
-| - destination     |       +-------------------+
-| - date            |                ^
-| - availableSeats  |                |
-+-------------------+                |
-           ^                          |
-           |                          |
-+-------------------+       +-------------------+
-|     Booking       |<------|  FlightManager    |
-+-------------------+       +-------------------+
-| - bookingId       |       | - flights         |
-| - flight          |       | - bookings        |
-| - passenger       |       +-------------------+
-+-------------------+       | + searchByDate()  |
-                             | + bookFlight()    |
-                             +-------------------+
-
-
 ## 🛠 Technologies Used
 - **Java (JDK 8+)**
 - **ArrayList** for dynamic storage
@@ -105,8 +82,7 @@ Booking successful! Booking ID: B001
 
 ---
 
-✈️ *Thank you for checking out my Flight Booking System project!*  
-💬 Always open to feedback, collaboration, and new opportunities.    
+✈️ *Thank you for checking out my Flight Booking System project!*   
 
 ## 📬 Let's Connect
 
@@ -123,12 +99,7 @@ Booking successful! Booking ID: B001
 ---
 
 <p align="center">
-  <b>📬 Contact</b><br><br>
-  💁‍♀️ <b>Fizzah Muhammed Ajaz</b><br>
-  ✉️ <a href="mailto:fizzahmajaz@gmail.com">fizzahmajaz@gmail.com</a><br>
-  💼 <a href="https://linkedin.com/in/fizzahmajaz">linkedin.com/in/fizzahmajaz</a><br>
-  🐙 <a href="https://github.com/fizzahmajaz">github.com/fizzahmajaz</a><br><br>
-  ✈️ <i>Thank you for checking out my Flight Booking System!</i>
+  💬 <i>Always open to feedback, collaboration, and new opportunities.</i>
 </p>
 
 ---
