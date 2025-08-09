@@ -18,6 +18,29 @@ A **Java-based console application** for booking flights, searching available op
 
 ---
 
+## 📜 Mini UML Diagram
++-------------------+       +-------------------+
+|     Flight        |       |    Passenger      |
++-------------------+       +-------------------+
+| - flightNumber    |       | - name            |
+| - origin          |       | - passportNumber  |
+| - destination     |       +-------------------+
+| - date            |                ^
+| - availableSeats  |                |
++-------------------+                |
+           ^                          |
+           |                          |
++-------------------+       +-------------------+
+|     Booking       |<------|  FlightManager    |
++-------------------+       +-------------------+
+| - bookingId       |       | - flights         |
+| - flight          |       | - bookings        |
+| - passenger       |       +-------------------+
++-------------------+       | + searchByDate()  |
+                             | + bookFlight()    |
+                             +-------------------+
+
+
 ## 🛠 Technologies Used
 - **Java (JDK 8+)**
 - **ArrayList** for dynamic storage
@@ -59,12 +82,13 @@ FlightBookingSystem/
 ## 🖥 Example Menu
 ```
 --- Flight Booking System ---
-1. Add Flight
+1. List All Flights
 2. Search Flight by Date
-3. Search Flight by Number
-4. Book a Flight
-5. View All Bookings
-6. Exit
+3. Search Flight by Destination
+4. Search Flight by Flight Number
+5. Book a Flight
+6. View All Bookings
+7. Exit
 ```
 
 ---
@@ -82,11 +106,11 @@ Booking successful! Booking ID: B001
 ---
 
 ✈️ *Thank you for checking out my Flight Booking System project!*  
-If you have any feedback, suggestions, or just want to connect, I’d love to hear from you.  
+💬 Always open to feedback, collaboration, and new opportunities.    
 
-## 📬 Contact
+## 📬 Let's Connect
 
-💁‍♀️ **Name:** Fizzah Muhammed Ajaz  
+💁‍♀️ **Name:** Fizzah M Ajaz  
 
 ✉️ **Email:** [fizzahmajaz@gmail.com](mailto:fizzahmajaz@gmail.com)  
 
@@ -95,4 +119,21 @@ If you have any feedback, suggestions, or just want to connect, I’d love to he
 🐙 **GitHub:** [github.com/fizzahmajaz](https://github.com/fizzahmajaz)  
 
 ---
+
+---
+
+<p align="center">
+  <b>📬 Contact</b><br><br>
+  💁‍♀️ <b>Fizzah Muhammed Ajaz</b><br>
+  ✉️ <a href="mailto:fizzahmajaz@gmail.com">fizzahmajaz@gmail.com</a><br>
+  💼 <a href="https://linkedin.com/in/fizzahmajaz">linkedin.com/in/fizzahmajaz</a><br>
+  🐙 <a href="https://github.com/fizzahmajaz">github.com/fizzahmajaz</a><br><br>
+  ✈️ <i>Thank you for checking out my Flight Booking System!</i>
+</p>
+
+---
+
+
+
+
 
