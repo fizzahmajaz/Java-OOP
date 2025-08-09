@@ -36,6 +36,17 @@ FlightBookingSystem/
 ├── FlightManager.java   # Handles flight addition, search, booking
 ├── Main.java            # Entry point - menu-driven interface
 ```
+---
+
+### ✅ **Main Classes**
+
+| Class Name | Responsibility |
+| --- | --- |
+| `Flight` | Stores flight details (number, date, origin, destination, seats) |
+| `Passenger` | Stores passenger details (name, email, etc.) |
+| `Booking` | Stores booking info (UUID, Flight, Passenger) |
+| `FlightManager` | Manages flights and bookings (search, book, cancel, list) |
+| `MainApp` | Console-based UI & main logic loop |
 
 ---
 
@@ -91,13 +102,11 @@ Booking successful! Booking ID: B001
 ---
 
 <p align="center">
-   ✈️ <i>*Thank you for checking out my Flight Booking System project!*</i> <br>
-  💬 <i>Always open to feedback, collaboration, and new opportunities.</i>
+   ✈️ <i>Thank you for checking out my Flight Booking System project!</i> ✈️ <br>
+  💬 <i>Always open to feedback, collaboration, and new opportunities.</i> 💬
 </p>
 
 ---
-
-
 
 
 
