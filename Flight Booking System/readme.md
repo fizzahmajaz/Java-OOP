@@ -1,81 +1,94 @@
 # ✈️ Flight Booking System (Java)
 
-A simple **Java-based Flight Booking System** that allows users to search for flights, view available seats, and book tickets for passengers. This project demonstrates the use of **OOP principles**, collections, control flow, and data handling in Java.
+![Java](https://img.shields.io/badge/Java-8%2B-blue?logo=java&logoColor=white)
+![OOP](https://img.shields.io/badge/Concepts-OOP-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+A **Java-based console application** for booking flights, searching available options, and managing passenger details. Built using **Object-Oriented Programming principles** and `ArrayList` collections, this project is perfect for demonstrating **Java fundamentals** and modular coding practices.
 
 ---
 
 ## 📌 Features
-- **Add Flights**: Store flight details including flight number, date, destination, and available seats.
-- **Search Flights by Number**: Retrieve flight details using a unique flight number.
-- **Search Flights by Date**: List all flights available on a given date.
-- **Book Flights**: Create bookings for passengers if seats are available.
-- **Reduce Seats on Booking**: Automatically decreases the available seats when a booking is confirmed.
-- **Display Bookings**: View all existing bookings with passenger and flight details.
+✅ Add new flights with details (number, origin, destination, date, seats)  
+✅ Search flights **by flight number**  
+✅ Search flights **by date**  
+✅ Book flights for passengers (with automatic seat reduction)  
+✅ View all bookings with passenger & flight info  
+✅ Data handled using **ArrayLists** and clean method separation  
 
 ---
 
 ## 🛠 Technologies Used
-- **Java** (JDK 8+)
-- **ArrayList** for storing and managing flights and bookings.
-- **OOP Concepts**: Classes, Objects, Methods, and Encapsulation.
-- **Control Flow**: Loops, Conditionals, and Switch Statements.
+- **Java (JDK 8+)**
+- **ArrayList** for dynamic storage
+- **OOP Concepts**: Classes, Objects, Encapsulation, Methods
+- **Control Flow**: Loops, If-Else, Switch-Case
 
 ---
 
 ## 📂 Project Structure
+```
 FlightBookingSystem/
 │
-├── Flight.java # Flight details (number, date, seats, destination)
-├── Passenger.java # Passenger information (name, contact)
-├── Booking.java # Booking details (links Passenger and Flight)
-├── FlightManager.java # Manages flight search, addition, and booking
-├── Main.java # Entry point - menu-driven interface
-
-yaml
-Copy code
+├── Flight.java          # Flight details model
+├── Passenger.java       # Passenger details model
+├── Booking.java         # Booking model linking Passenger and Flight
+├── FlightManager.java   # Handles flight addition, search, booking
+├── Main.java            # Entry point - menu-driven interface
+```
 
 ---
 
 ## 🚀 How to Run
-1. **Clone this repository**  
+1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/flight-booking-system.git
    cd flight-booking-system
-Compile the Java files
+   ```
+2. **Compile**
+   ```bash
+   javac *.java
+   ```
+3. **Run**
+   ```bash
+   java Main
+   ```
 
-bash
-Copy code
-javac *.java
-Run the program
+---
 
-bash
-Copy code
-java Main
-📋 Example Usage
-Add Flights
+## 🖥 Example Menu
+```
+--- Flight Booking System ---
+1. Add Flight
+2. Search Flight by Date
+3. Search Flight by Number
+4. Book a Flight
+5. View All Bookings
+6. Exit
+```
 
-Search Flight by Number
+---
 
-Search Flight by Date
-
-Book a Flight
-
-View Bookings
-
-Sample run:
-
+## 📋 Sample Run
+```
 Enter flight number: PK101
-Flight found!
-Available seats: 5
-Booking successful! Your booking ID: B001
-🧠 Key Learning Points
-Handling ArrayLists and iterating with for-each loops.
+Flight found: PK101 | From: Pakistan | To: Makkah | Date: 2025-12-25 | Seats: 5
+Enter passenger name: Ali
+Booking successful! Booking ID: B001
+```
 
-Avoiding type mismatches between ArrayList<Flight> and Flight objects.
+---
 
-Using methods for modularity (e.g., getFlightByNumber, reduceSeats).
+## 🧠 Key Learning Points
+- Efficient **search & filter** with loops and conditions.
+- **Avoiding return type mismatches** (Flight vs ArrayList<Flight>).
+- **Method modularity** for maintainable code.
+- Real-world **object relationships** (Flight ↔ Booking ↔ Passenger).
 
-Implementing object relationships (Flight ↔ Booking ↔ Passenger).
+---
 
-📜 License
-This project is open-source under the MIT License — feel free to use, modify, and share.
+## 📜 License
+Licensed under the MIT License — you are free to use, modify, and distribute.
+
+---
+💡 *This project is great for learning Java basics, applying OOP, and building a functional console application.*
