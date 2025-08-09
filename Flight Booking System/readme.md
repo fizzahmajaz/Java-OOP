@@ -80,8 +80,6 @@ Booking successful! Booking ID: B001
 
 ---
 
----
-
 ✈️ *Thank you for checking out my Flight Booking System project!*   
 
 ## 📬 Let's Connect
@@ -96,9 +94,8 @@ Booking successful! Booking ID: B001
 
 ---
 
----
-
 <p align="center">
+   ✈️ <i>*Thank you for checking out my Flight Booking System project!*</i>
   💬 <i>Always open to feedback, collaboration, and new opportunities.</i>
 </p>
 
